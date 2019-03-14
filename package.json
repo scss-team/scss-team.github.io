@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/scss-team/scss-team.github.io/issues"
   },
-  "homepage": "https://github.com/scss-team/scss-team.github.io#readme"
+  "homepage": "https://github.com/scss-team/scss-team.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
 }
