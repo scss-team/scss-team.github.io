@@ -12,12 +12,12 @@
 }
 
 /* body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Geneva", sans-serif;
   font-weight: 90;
   font-size: 12px;
   line-height: 28px;
-  color: black;
-  background: white;
+  color: ;
+  background: ;
 } */
 
 .container {
@@ -33,7 +33,7 @@
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font:  14px "Lato", Helvetica, Arial, sans-serif;
+  font:  14px "geneva", sans-serif;
 }
 
 #contact {
@@ -43,22 +43,9 @@
 
 }
 
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-}
 
 fieldset {
-  border: medium none !important;
+  border: medium;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
@@ -90,26 +77,9 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #106042;
-  color: #FFF;
+  background: #386444;
+  color: #f5f7f7;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
 }
-
-/* @media (min-width: 576px) {
-  .gallery-block .transform-on-hover:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; } }
-
-
-@media only screen and (max-width: 768px){
-        .styled-input {
-            width:100%;
-        }
-         .submit-btn {
-                width:100%;
-                float: none;
-                text-align:center;
-            }
-    } */
