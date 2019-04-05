@@ -12,6 +12,13 @@
   .gallery-block .cards-gallery a:hover {
     text-decoration: none; }
 
+.ft-green {
+  color: #17aa8d;
+  font-family: Geneva; }
+
+.ft-white {
+  color: #f5f7f7; }
+
 @media (min-width: 576px) {
   .gallery-block .transform-on-hover:hover {
     transform: translateY(-10px) scale(1.02);
