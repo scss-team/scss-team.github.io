@@ -33,7 +33,7 @@
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font:  14px "Lato", Helvetica, Arial, sans-serif;
+  font:  14px "geneva", sans-serif;
 }
 
 #contact {
@@ -90,8 +90,8 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #106042;
-  color: #FFF;
+  background: #386444;
+  color: #f5f7f7;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
