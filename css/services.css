@@ -1,6 +1,18 @@
+hr{
+  height: 100%;
+  background-color: green;
+  width: 100%;
+
+}
+.row two{
+  text-align: center;
+  padding: 15px;
+}
 .logohead{
   text-align: center;
   padding: 5px;
+
+  font-size: 25px;
 }
 .carousel-inner{
   padding: 10px;
@@ -21,6 +33,7 @@
 .yup{
   text-align: center;
 }
+
 @media (min-width:576px){
 .container{
     transform: translateY(-10px) scale(1.02);
@@ -46,7 +59,9 @@ row {
   flex: 100%;
   padding: 5px;
 }
-
+.two{
+float: right;
+}
 
 
 }
