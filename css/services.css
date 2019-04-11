@@ -1,7 +1,18 @@
+
+.yup{
+  text-align: center;
+  color: darkgreen;
+}
+
+.img{
+  border-radius: 20px;
+  margin-top: 10px;
+}
 hr{
   height: 100%;
-  background-color: green;
+  background-color: darkgreen;
   width: 100%;
+
 
 }
 .row two{
@@ -10,29 +21,36 @@ hr{
 }
 .logohead{
   text-align: center;
+  color: darkgreen;
   padding: 5px;
 
-  font-size: 25px;
+  font-size: 35px;
 }
 .carousel-inner{
   padding: 10px;
   width: auto;
-  height: 300px;;
+  height: 500px;;
 }
 .col-sm{
-  padding: 10px;
-  text-align: center;
-}
-.description{
-  border: 0px;
-}
+width: 50px;
+height: 400px;
+background-color: darkgreen;
+border: 2px solid black;
+margin-right: 2px;
+margin-top: 2px;
+border-radius: 20px;
+text-align: center;
+color: white;
+margin: 2%;
+padding: 5px;
+
+
 .photo{
   text-align: center;
   margin-top: 5px;
+  color: green;
 }
-.yup{
-  text-align: center;
-}
+
 
 @media (min-width:576px){
 .container{
