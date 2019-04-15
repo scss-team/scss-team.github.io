@@ -1,4 +1,9 @@
-
+.ft-green{
+  color: green;
+}
+.ft-white{
+ color: white;
+}
 .yup{
   text-align: center;
   color: darkgreen;
