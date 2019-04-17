@@ -1,4 +1,4 @@
-@import "variables";
+@import "_variables";
 
 .gallery-block{
     padding-top:60px;
@@ -32,8 +32,9 @@ a:hover {
 body {
   font-family: $fonts-text;
 }
-h3 {
-  color: $charcoalgrey;
+.maintitle {
+  color: $darkgreen;
+  padding-left: 10px;
 }
 .grey-bar {
   background-color: $charcoalgrey;
@@ -95,18 +96,33 @@ width: 200px;
   margin-right: 20%;
 }
 
-.ft-green {
-  color: $lightgreen;
-  text-align: center;
-  margin: 0 0 10px 0;
-
-}
-
-.ft-white {
-    color: $offwhite;
+.fcb {
+  font-family: $fonts-text;
+  .container-fluid {
     text-align: center;
-    margin: 0 0 5px 0;
+  }
+  .ft-green {
+  color: $lightgreen;
+  margin: 0 0 10px 0;
+  }
+
+  .ft-white {
+      color: $offwhite;
+        margin: 0 0 5px 0;
+  }
 }
+// .ft-green {
+//   color: $lightgreen;
+//   text-align: center;
+//   margin: 0 0 10px 0;
+//
+// }
+
+// .ft-white {
+//     color: $offwhite;
+//     text-align: center;
+//     margin: 0 0 5px 0;
+// }
 
 
 @media all and (min-width: 950px) {
