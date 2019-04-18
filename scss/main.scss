@@ -1,4 +1,4 @@
-@import "_variables";
+@import "variables";
 
 .gallery-block{
     padding-top:60px;
@@ -34,7 +34,8 @@ body {
 }
 .maintitle {
   color: $darkgreen;
-  padding-left: 10px;
+  padding-left: 30px;
+  font-size: 1.5rem;
 }
 .grey-bar {
   background-color: $charcoalgrey;
@@ -42,23 +43,39 @@ body {
   height: 60px;
 }
 
-h2, p {
-  margin: 0 auto;
+.wwd {
+  color: $lightgreen;
+  font-size: 1.5rem;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
 }
 
+p {
+  font-size: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+
+}
+
+
 .top-banner {
   color: $offwhite;
   text-align: center;
-  background-color: $charcoalgrey;
+  background-color: $darkgreen;
   border: 5px solid $lightgreen;
   width: 90%;
   margin: 0 auto;
+  padding-top: 3px;
 }
+
+h4 {
+  font-size: 1.2rem;
+}
+
 .card {
-  background-color: $charcoalgrey;
+  background-color: $darkgreen;
   width: 75%;
   margin: 0 auto;
 }
@@ -74,21 +91,26 @@ margin-top: 10%;
 }
 
 .bottom-banner {
-  background-color: $charcoalgrey;
+  background-color: $darkgreen;
   color: $offwhite;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  border: 10px solid $lightgreen;
+  border: 5px solid $lightgreen;
   padding-top: 3px;
 
 }
 
 .btn, .btn-primary {
-font-size: 1.5rem;
-background-color: $charcoalgrey;
+font-size: 1.2rem;
+background-color: $darkgreen;
 border: 5px solid $lightgreen;
 width: 200px;
+}
+
+a.btn:hover{
+  background-color:$lightgreen;
+  border: 5px solid $offwhite;
 }
 
 .img-footer {
@@ -111,18 +133,6 @@ width: 200px;
         margin: 0 0 5px 0;
   }
 }
-// .ft-green {
-//   color: $lightgreen;
-//   text-align: center;
-//   margin: 0 0 10px 0;
-//
-// }
-
-// .ft-white {
-//     color: $offwhite;
-//     text-align: center;
-//     margin: 0 0 5px 0;
-// }
 
 
 @media all and (min-width: 950px) {
@@ -131,8 +141,25 @@ width: 200px;
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
 
-// .card-deck {
-//   display: inline-block;
-// }
+.maintitle, .wwd {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.top-banner {
+  width: 96%;
+}
+
+.btn, .btn-primary {
+  font-size: 1.4rem;
+}
+
 
 }

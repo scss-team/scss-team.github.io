@@ -14,29 +14,43 @@
   .gallery-block .cards-gallery a:hover {
     text-decoration: none; }
 
-h3 {
-  font-family: Geneva;
-  color: #343433; }
+body {
+  font-family: "Geneva", sans-serif; }
+
+.maintitle {
+  color: #386444;
+  padding-left: 30px;
+  font-size: 1.5rem; }
 
 .grey-bar {
   background-color: #343433;
   width: 100%;
   height: 60px; }
 
-h2, p {
-  font-family: Geneva;
-  margin: 0 auto;
+.wwd {
+  color: #7aa18d;
+  font-size: 1.5rem;
   padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px; }
+
+p {
+  font-size: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px; }
 
 .top-banner {
-  font-family: Geneva;
   color: #f5f7f7;
   text-align: center;
   background-color: #386444;
   border: 5px solid #7aa18d;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 3px; }
+
+h4 {
+  font-size: 1.2rem; }
 
 .card {
   background-color: #386444;
@@ -52,40 +66,50 @@ h2, p {
   margin: 0 auto; }
 
 .bottom-banner {
-  font-family: Geneva;
   background-color: #386444;
   color: #f5f7f7;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  border: 10px solid #7aa18d;
+  border: 5px solid #7aa18d;
   padding-top: 3px; }
 
 .btn, .btn-primary {
-  font: Geneva;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: #386444;
   border: 5px solid #7aa18d;
   width: 200px; }
+
+a.btn:hover {
+  background-color: #7aa18d;
+  border: 5px solid #f5f7f7; }
 
 .img-footer {
   margin-left: 15%;
   margin-right: 20%; }
 
-.ft-green {
-  color: #17aa8d;
-  font-family: Geneva;
-  text-align: center;
-  margin: 0 0 10px 0; }
-
-.ft-white {
-  color: #f5f7f7;
-  text-align: center;
-  margin: 0 0 5px 0; }
+.fcb {
+  font-family: "Geneva", sans-serif; }
+  .fcb .container-fluid {
+    text-align: center; }
+  .fcb .ft-green {
+    color: #7aa18d;
+    margin: 0 0 10px 0; }
+  .fcb .ft-white {
+    color: #f5f7f7;
+    margin: 0 0 5px 0; }
 
 @media all and (min-width: 950px) {
   .gallery-block .transform-on-hover:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; } }
-
-    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; }
+  .maintitle, .wwd {
+    font-size: 2rem; }
+  p {
+    font-size: 1.1rem; }
+  h4 {
+    font-size: 1.6rem; }
+  .top-banner {
+    width: 96%; }
+  .btn, .btn-primary {
+    font-size: 1.4rem; } }
