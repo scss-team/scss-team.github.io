@@ -1,68 +1,90 @@
-.gallery-block{
-    padding-top:60px;
-    padding-bottom: 60px;
-.cards-gallery .card{
+@import "variables";
+
+.gallery-block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .cards-gallery .card {
     transition: 0.4s easy;
     margin-bottom: 50px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 
-    img{
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    img {
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     }
-}
+  }
 
-.navbar-dark .navbar-toggler {
-  border-color: none !important;
-}
+  .navbar-dark .navbar-toggler {
+    border-color: none !important;
+  }
 
-.cards-gallery{
-  a {
-    color:#212529;
-}
+  .cards-gallery {
+    a {
+      color: #212529;
+    }
 
-a:hover {
-    text-decoration: none;
+    a:hover {
+      text-decoration: none;
+    }
+  }
 }
-}
-}
-
 // HOME PAGE SCSS
-h3 {
-  font-family: Geneva;
-  color: #343433;
+body {
+  font-family: $fonts-text;
 }
+
+.maintitle {
+  color: $darkgreen;
+  padding-left: 30px;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
 .grey-bar {
-  background-color: #343433;
+  background-color: $charcoalgrey;
   width: 100%;
   height: 60px;
 }
 
-h2, p {
-  font-family: Geneva;
-  margin: 0 auto;
+.wwd {
+  color: $lightgreen;
+  font-size: 1.5rem;
   padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px;
 }
 
 .top-banner {
-  font-family: Geneva;
-  color: #f5f7f7;
+  color: $offwhite;
   text-align: center;
-  background-color: #386444;
-  border: 5px solid #7aa18d;
+  background-color: $darkgreen;
+  border: 5px solid $lightgreen;
   width: 90%;
   margin: 0 auto;
+  padding-top: 3px;
 }
+
+h4 {
+  font-size: 1.2rem;
+}
+
 .card {
-  background-color: #386444;
+  background-color: $darkgreen;
   width: 75%;
   margin: 0 auto;
 }
 
 .card-img-top {
-width: 75%;
-margin-left:12%;
-margin-top: 10%;
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 10%;
 }
 
 .card-body {
@@ -70,48 +92,95 @@ margin-top: 10%;
 }
 
 .bottom-banner {
-  font-family: Geneva;
-  background-color: #386444;
-  color: #f5f7f7;
+  background-color: $darkgreen;
+  color: $offwhite;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  border: 10px solid #7aa18d;
+  border: 5px solid $lightgreen;
   padding-top: 3px;
-
 }
 
-.btn, .btn-primary {
-font: Geneva;
-font-size: 1.5rem;
-background-color: #386444;
-border: 5px solid #7aa18d;
-width: 200px;
+.btn,
+.btn-primary {
+  font-size: 1.2rem;
+  background-color: $darkgreen;
+  border: 5px solid $lightgreen;
+  width: 200px;
 }
+
+a.btn:hover {
+  background-color: $lightgreen;
+  border: 5px solid $offwhite;
+}
+
 .img-footer {
   margin-left: 15%;
   margin-right: 20%;
 }
 
-.ft-green {
-  color: #17aa8d;
-  font-family: Geneva;
-  text-align: center;
-  margin: 0 0 10px 0;
+.fcb {
+  font-family: $fonts-text;
 
-}
-
-.ft-white {
-    color: #f5f7f7;
+  .container-fluid {
     text-align: center;
-    margin: 0 0 5px 0;
+  }
+
+  .ft-green {
+    color: $lightgreen;
+    margin: 0 0 10px;
+  }
+
+  .ft-white {
+    color: $offwhite;
+    margin: 0 0 5px;
+  }
 }
-
-
-@media (min-width:576px) {
-.gallery-block .transform-on-hover:hover{
+@media all and (min-width: 950px) {
+  .gallery-block .transform-on-hover:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
-}
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
 
+.maintitle {
+  padding-top: 30px;
+  padding-left: 400px;
+}
+  .maintitle,
+  .wwd {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  .top-banner {
+    width: 96%;
+  }
+.caption2 {
+  color:$charcoalgrey;
+}
+  .btn,
+  .btn-primary {
+    font-size: 1.2rem;
+  }
+
+  .card-deck {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .desktop-banner {
+    width: 100%;
+    height: 20px;
+    background-color: $lightgreen;
+  }
+
+  .bottom-banner {
+    width: 30.5%;
+  }
 }
