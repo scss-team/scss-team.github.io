@@ -105,6 +105,9 @@ a.btn:hover {
   .gallery-block .transform-on-hover:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15) !important; }
+  .maintitle {
+    padding-top: 30px;
+    padding-left: 400px; }
   .maintitle,
   .wwd {
     font-size: 2rem; }
@@ -114,6 +117,8 @@ a.btn:hover {
     font-size: 1.6rem; }
   .top-banner {
     width: 96%; }
+  .caption2 {
+    color: #343433; }
   .btn,
   .btn-primary {
     font-size: 1.2rem; }
