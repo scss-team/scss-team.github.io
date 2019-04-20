@@ -1,17 +1,17 @@
 
-
-
+.full{
+  padding: 10px;
+}
 .toptext{
   color: green;
   font-size: 2rem;
  margin-right: 30px;
- padding-left: 1px;
-
-
+ padding: 15px;
 }
 .headtxt{
   font-family: geneva;
   font-size: 20px;
+  color: black;
 }
 .ft-green{
   color: green;
@@ -23,6 +23,7 @@
   text-align: center;
   color: darkgreen;
 }
+
 
 .img{
   border-radius: 20px;
@@ -44,12 +45,13 @@ hr{
   color: darkgreen;
   padding: 5px;
 
-  font-size: 35px;
+  font-size: 20px;
 }
 .carousel-inner{
   padding: 10px;
-  width: auto;
+  width: 200px;
   height: 500px;;
+  align-content: center;
 }
 .col-sm{
 width: 50px;
